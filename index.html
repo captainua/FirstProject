@@ -8,37 +8,27 @@
 </head>
 <body>
 	<header class="header" id="header">
-		<div class="item">
-			<img src="IMG/logo.png" alt="">
+		<div class="container">
+			<div class="item">
+				<img class="logo" src="IMG/header/logo.png" alt="">
+			</div>
+			<div class="item">
+				<a href="#">Про Фонд</a>
+				<a href="#"><button>Допомогти</button></a>
+				<a href="#">Контакти</a>
+			</div>
+			<div class="item">
+				<img src="IMG/header/search.png" alt="">
+				<img src="IMG/header/ukraine.png" alt="">
+				<span>UA</span>
+				<img src="IMG/header/facebook.png" alt="">
+			</div>
 		</div>
-		<nav class="item">
-			<a href="">Про фонд</a>
-			<button>Допомогти</button>
-			<a href="">Контакти</a>
-		</nav>
-		<div class="item">
-			<a href=""><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M28.3139 27.9091L22.2002 21.7845L28.3139 27.9091ZM25.5882 13.5993C25.5882 16.6716 24.3677 19.6181 22.1953 21.7905C20.0228 23.9629 17.0764 25.1834 14.0041 25.1834C10.9318 25.1834 7.98529 23.9629 5.81284 21.7905C3.64039 19.6181 2.41992 16.6716 2.41992 13.5993C2.41992 10.527 3.64039 7.5805 5.81284 5.40805C7.98529 3.23561 10.9318 2.01514 14.0041 2.01514C17.0764 2.01514 20.0228 3.23561 22.1953 5.40805C24.3677 7.5805 25.5882 10.527 25.5882 13.5993V13.5993Z" stroke="black" stroke-width="3.23533" stroke-linecap="round"/>
-			</svg></a>
-			<a href=""><svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-			<rect x="0.314453" y="0.656372" width="34.6113" height="34.6113" fill="url(#pattern0)"/>
-			<defs>
-			<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-			<use xlink:href="#image0" transform="scale(0.00195312)"/>
-			</pattern>
-			<image id="image0" width="512" height="512" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAYNQTFRF////QXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaQXPN/+FaDlT3jQAAAH90Uk5TAAEBAwMFBQcHCgoMDBISGBgZGR4eICAhIScnKys6Ojs7Pz9AQEFBR0dISFRUWVlcXGFha2tubnp6e3uCgoiIjo6VlZeXmJiZmZqaoqKrq66ur6+0tLW1tra4uLq6yMjJycvLz8/T093d3t7i4unp7Ozz8/T0+fn6+vv7/Pz+/jO+iDEAAATVSURBVHja7dzVelUHFIXRSQnursHd3SHB3bXF3d21ffReQEuAAAFuyF5jPMJc/9kXe3/fSQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAr+kzqnX+yo17T/5JN3Ny78aV81tH9fmV48/devtvurnbW+f+VASDFu9/aL1meLh/8aAfPH/r6Zd2a5KXp1t/4PzjDlqseQ6O6+L5h2z362/mU2D7kC6cv9/6x6Zqqsfr+33v/iMum6nJLo/49v0n37VRs92d/K37L31qoaZ7uvSr5+/ZZp4K2np2fv9ex21Tw/FenQaw0zJV7Ozs/svtUsfyL+8/09ufQl7O/Pz+Y+5bpZL7Yz69/4CrNqnl6oBPAthtkWp2d7z/hNcGqeb1hA4BHLVHPUc/3n+6NSqa/t/9e1w0RkUXe3wIYKEtalr44RvQTVPUdPP9V6GplqhqapKkzRBVtSVJrhuiqutJMsEOdU1IstoMda1Oct4MdZ1Phr01Q11vh2W2FSqbnaVGqGxp1hqhsrXZbITKNuewESo7nLNGqOxs/AtQabfz3AiVPY8NahOAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAAQgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACIDfIoB/KE0AAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABCAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAAEgAAQAAJAAAgAASAABIAAEAACQAAIAAEgAASAABAAAkAACAABIAB+iwBe2KCyF7ljhMru5JwRKjuXI0ao7Ei2GKGyLVlnhMrWZZkRKluWOUaobE6Gv7NCXe+GJxfMUNeFJGvMUNeaJBPNUNfEJLlhh6puJEnaDVFVe5JkmiGqmpYkablliZputSRJssgUNS16f//8cckWFV3640MAmWGMimbkf8esUc+xj/fPxDf2qObNxA4BZI9BqtnT8f4ZeM0itVwb+EkAGfvAJpU8GJvPzHpllTpezcoXVpiljhXpxC67VLGrs/un9wnL1HCid6cBpKXdNhW0t+Rrlj0zT9M9W5ZvmHLPQs12b0q+aeQVGzXZlZH5jv4bnpipqZ5s6J/vG7rDO6FGerVjaLpm/CFrNc+h8em6SWc8BZr16z8zKT9m8JIDj+zWDI8OLBmcn9B33jb/INTt3dk2r29+Xt/Rkxas2rTv1F90M6f2bVq1YNLoXzk+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADTdv0zHqNq1K78XAAAAAElFTkSuQmCC"/>
-			</defs>
-			</svg></a>
-			<a href=""><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M29.3123 15.0511C29.3123 6.97799 22.8081 0.433838 14.7859 0.433838C6.76007 0.435654 0.255859 6.978 0.255859 15.0529C0.255859 22.347 5.5689 28.3936 12.5125 29.4903V19.2764H8.82645V15.0529H12.5162V11.8298C12.5162 8.16735 14.686 6.14454 18.0035 6.14454C19.5942 6.14454 21.2556 6.42962 21.2556 6.42962V10.0249H19.4235C17.6204 10.0249 17.0575 11.1525 17.0575 12.3092V15.0511H21.0849L20.4421 19.2746H17.0557V29.4885C23.9993 28.3918 29.3123 22.3451 29.3123 15.0511Z" fill="#3B5998"/>
-			</svg></a>
-		</div>
-		<div class="item2">
-			<img class="img" src="IMG/family.png" alt="">
+		<div class="content">
+			<img src="IMG/family.png" alt="">
 			<h1>Благодійний Фонд</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Tempore accusantium, laudantium voluptates beatae dolor deserunt expedita quam architecto voluptatibus velit. Provident sed possimus impedit expedita ipsum explicabo magni dolor inventore.</p>
+			<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 		</div>
 	</header>
-	
 </body>
 </html>
