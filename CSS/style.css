@@ -102,3 +102,95 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit;,font-weight: 400;}
 .item2 p {
 	margin-left: 200px;
 }
+/*End Header Style*/
+
+/*Style on News*/
+.news {
+	width: 100%;
+	height: 600px;
+
+	background: #AEC48D;
+}
+
+.news__title h2 {
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 57px;
+	text-align: center;
+	color: #000000;
+}
+
+.news__photo {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.news__item {
+	text-align: center;
+}
+
+/*Kids style*/
+.kids {
+	width: 100%;
+	height: 900px;
+
+	background: #F1F7EB;
+}
+
+.kids__photo {
+	display: flex;
+	justify-content: center;
+}
+
+.kids__item img {
+
+}
+
+/*helpus style*/
+
+.helpus {
+	width: 100%;
+	height: 616.93px;
+
+	background: #F1F7EB;
+}
+
+.helpus__block {
+	width: 1134.82px;
+	height: 455.98px;
+	margin-left: 30px;
+	background: #1A7000;
+}
+
+.helpus__block h2 {
+	color: #fff;
+	padding: 100px 0px 20px 100px;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 57px;
+}
+
+.helpus__block p {
+	margin: 0px 600px 20px 100px;
+	text-align: justify;
+	color: #FFFFFF;
+}
+
+.helpus__block button {
+	width: 145px;
+	height: 44px;
+	margin: 10px 0px 10px 100px;
+	background: #FFDE59;
+	border-radius: 40.4533px;
+}
+
+.helpus__block img {
+	float: right;
+	clear: both;
+}
+/*END style HELP-US*/
