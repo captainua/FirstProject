@@ -41,6 +41,8 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6 {font-size: inherit;,font-weight: 400;}
 /*end*/
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /*Header Style*/
 .header {
 	width: 100%;
@@ -66,8 +68,8 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit;,font-weight: 400;}
 	color: #000000;
 }
 
-.item button {
-	font-family: Rubik;
+.item a button {
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	width: 136px;
 	height: 46px;
@@ -85,12 +87,9 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit;,font-weight: 400;}
 	justify-content: space-evenlya;
 	align-items: center;
 }
-.content img {
-
-}
 
 .content h1 {
-	font-family: Rubik;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 64px;
@@ -113,7 +112,7 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit;,font-weight: 400;}
 }
 
 .news__title h2 {
-	font-family: Rubik;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 48px;
@@ -161,14 +160,14 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit;,font-weight: 400;}
 .helpus__block {
 	width: 1134.82px;
 	height: 455.98px;
-	margin-left: 30px;
+	margin-left: 8.5%;
 	background: #1A7000;
 }
 
 .helpus__block h2 {
 	color: #fff;
 	padding: 100px 0px 20px 100px;
-	font-family: Rubik;
+	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 48px;
@@ -177,8 +176,9 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit;,font-weight: 400;}
 
 .helpus__block p {
 	margin: 0px 600px 20px 100px;
-	text-align: justify;
-	color: #FFFFFF;
+	text-align: initial;
+	font-size: 18px;
+	color: #000000;
 }
 
 .helpus__block button {
@@ -191,6 +191,7 @@ h1,h2,h3,h4,h5,h6 {font-size: inherit;,font-weight: 400;}
 
 .helpus__block img {
 	float: right;
-	clear: both;
+	margin-top: 48px;
+	margin-right: 100px;
 }
 /*END style HELP-US*/
